@@ -34,9 +34,9 @@
     NSLog(@"Your house is %@", randomHouse);
     [ADBMobile targetClearCookies];
 
-    NSArray *nbaPlayer = [NSArray arrayWithObjects: @"curry", @"james", @"bryant", @"jordan", nil];
-    NSString *randomPlayer = [nbaPlayer objectAtIndex:arc4random()%[nbaPlayer count]];
-    NSLog(@"Your nba player is %@", randomPlayer);
+    NSArray *footballPlayer = [NSArray arrayWithObjects: @"messi", @"muller", @"klaassen", @"rooney", nil];
+    NSString *randomPlayer = [footballPlayer objectAtIndex:arc4random()%[footballPlayer count]];
+    NSLog(@"Your football player is %@", randomPlayer);
 
     
     NSDictionary *targetParams = [[NSDictionary alloc] initWithObjectsAndKeys:
